@@ -39,8 +39,3 @@ Se utiliza el dataset **PlantVillage**, con tres clases de clasificación:
 - PyTorch / TensorFlow
 - Google Colab (entrenamiento)
 - TensorFlow Lite (conversión y cuantización para Edge)
-
-## Autor
-
-**[Tu nombre completo]**  
-Máster Universitario de Ingeniería Informática— UOC 
