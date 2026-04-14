@@ -42,5 +42,4 @@ Se utiliza el dataset **PlantVillage**, con tres clases de clasificación:
 
 ## Autor
 
-**[Tu nombre completo]**  
-Máster Universitario de Ingeniería Informática— UOC 
+Máster Universitario de Ingeniería Informática - UOC 
