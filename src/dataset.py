@@ -22,7 +22,7 @@ class PlantDataset(Dataset):
     def __init__(self, csv_path, data_path, transforms=None):
         df = pd.read_csv(csv_path, header=None)
         self.images     = df.iloc[:, 0].values
-        self.labels     = df.iloc[:, 3].values.astype(int)
+        self.labels     = df.iloc[:, 1].values.astype(int)
         self.data_path  = data_path
         self.transforms = transforms
 
@@ -75,8 +75,8 @@ def create_csv(plantville_root, csv_train, csv_val, csv_test,
                            (df_test,  csv_test)]:
         pd.DataFrame({
             0: df_split['rel_path'].values,
-            1: '', 2: '',
-            3: df_split['label'].values,
+           # 1: '', 2: '',
+            1: df_split['label'].values,
         }).to_csv(path, index=False, header=False)
         print(f"  {os.path.basename(path)}: {len(df_split)} imgs")
 
