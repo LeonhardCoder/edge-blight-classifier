@@ -1,0 +1,77 @@
+{
+  "design": {
+    "approach": "single_pool_stratified",
+    "stratify_by": [
+      "label",
+      "source"
+    ],
+    "labeled_datasets": [
+      "plantvillage",
+      "mendeley_ue",
+      "tilahun",
+      "quizhpe"
+    ],
+    "pending_datasets": [
+      "propio"
+    ],
+    "splits": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    },
+    "seed": 42
+  },
+  "splits": {
+    "train": {
+      "name": "train",
+      "total": 3500,
+      "per_class": {
+        "early_blight": 1225,
+        "late_blight": 1162,
+        "healthy": 1113
+      },
+      "per_source": {
+        "plantvillage": 2141,
+        "mendeley_ue": 845,
+        "tilahun": 296,
+        "quizhpe": 218
+      }
+    },
+    "val": {
+      "name": "val",
+      "total": 750,
+      "per_class": {
+        "early_blight": 263,
+        "late_blight": 249,
+        "healthy": 238
+      },
+      "per_source": {
+        "plantvillage": 431,
+        "mendeley_ue": 197,
+        "tilahun": 69,
+        "quizhpe": 53
+      }
+    },
+    "test": {
+      "name": "test",
+      "total": 750,
+      "per_class": {
+        "early_blight": 262,
+        "late_blight": 249,
+        "healthy": 239
+      },
+      "per_source": {
+        "plantvillage": 428,
+        "mendeley_ue": 210,
+        "tilahun": 64,
+        "quizhpe": 48
+      }
+    }
+  },
+  "inventory": {
+    "propio_total": 95
+  },
+  "duplicates_detected": 90,
+  "corpus_sha256": "969613676ddfd334ab9f0c84f6464cd4e17baef8b92b5114b96536fb597f19e9",
+  "total_unique_images": 5000
+}

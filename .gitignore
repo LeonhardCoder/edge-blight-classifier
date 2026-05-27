@@ -1,12 +1,162 @@
-# Byte-compiled / optimized / DLL files
+# =============================================================================
+# .gitignore - Edge Blight Classifier (TFM UOC)
+# =============================================================================
+# Proyecto: Evaluacion comparativa CNN vs ViT en dispositivos Edge
+# Filosofia: no versionar datos pesados, modelos entrenados ni outputs.
+# SI versionar: codigo, configs, CSVs de metricas pequenios, figuras finales.
+# =============================================================================
+
+
+# =============================================================================
+# DATASETS Y MODELOS PESADOS (NUNCA en git)
+# =============================================================================
+
+# Datasets de imagenes
+dataset/
+datasets/
+data/
+**/PlantVillage/
+**/Plantville/
+**/mendeley_uncontrolled_Environment/
+**/Addis/
+**/GerardoQuizhpe/
+**/PropioVictor/
+
+# Checkpoints entrenados (.pth de PyTorch)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Modelos exportados (ONNX, TFLite, TensorRT)
+*.onnx
+*.tflite
+*.engine
+*.trt
+*.pb
+tf_saved_model/
+tflite_output/
+
+# Datos de calibracion INT8
+calib_data.npy
+*.npy
+*.npz
+
+# Cache de Hugging Face / timm
+.cache/
+~/.cache/huggingface/
+hub/
+
+
+# =============================================================================
+# OUTPUTS DEL PIPELINE (regenerables, no versionar)
+# =============================================================================
+
+# Carpeta de outputs completa (regenerable con los scripts)
+outputs/checkpoints/
+outputs/exported/
+outputs/logs/
+
+# CSVs intermedios pesados
+outputs/corpus/train.csv
+outputs/corpus/val.csv
+outputs/corpus/test.csv
+outputs/corpus/duplicates*.csv
+outputs/corpus/propio_inventory.csv
+
+# Reportes de error analysis (pueden ser pesados con rutas completas)
+outputs/metrics/error_analysis_misclassified.csv
+outputs/metrics/diagnose_classification_reports.txt
+
+# SI versionar (descomenta si los quieres):
+# !outputs/corpus/corpus_summary.json   # metadatos pequenios
+# !outputs/metrics/train_*.csv          # curvas de entrenamiento (KB)
+# !outputs/metrics/edge_results_*.csv   # resultados Edge (KB)
+# !outputs/figures/*.png                # figuras finales para memoria
+
+
+# =============================================================================
+# ARTEFACTOS TEMPORALES DE EDGE
+# =============================================================================
+
+# Pruebas y smoke tests
+/tmp/smoke_*
+smoke_*.onnx
+test_*.onnx
+*.tmp
+
+
+# =============================================================================
+# JUPYTER / NOTEBOOKS
+# =============================================================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Notebooks con outputs (mejor versionar limpios)
+# Para limpiar antes de commit:  jupyter nbconvert --clear-output *.ipynb
+
+
+# =============================================================================
+# ENTORNOS VIRTUALES PYTHON
+# =============================================================================
+
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+tfm-env/
+edge-env/
+*-env/
+
+
+# =============================================================================
+# BYTECODE Y CACHE PYTHON
+# =============================================================================
+
 __pycache__/
 *.py[codz]
 *$py.class
-
-# C extensions
 *.so
 
-# Distribution / packaging
+# Cache de herramientas
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.hypothesis/
+cython_debug/
+
+
+# =============================================================================
+# COBERTURA Y TESTING
+# =============================================================================
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+cover/
+
+
+# =============================================================================
+# DISTRIBUCION Y PACKAGING
+# =============================================================================
+
 .Python
 build/
 develop-eggs/
@@ -26,182 +176,188 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# =============================================================================
+# EDITORES E IDEs
+# =============================================================================
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
+# VS Code
+.vscode/
+*.code-workspace
 
-# Translations
-*.mo
-*.pot
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+out/
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
 
-# Scrapy stuff:
-.scrapy
+# Emacs
+*~
+\#*\#
+.\#*
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
-#poetry.toml
-
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
-#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
-#pdm.lock
-#pdm.toml
-.pdm-python
-.pdm-build/
-
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-#pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
+# Spyder
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope
 .ropeproject
 
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
-
-# Abstra
-# Abstra is an AI-powered process automation framework.
-# Ignore directories containing user credentials, local state, and settings.
-# Learn more at https://abstra.io/docs
-.abstra/
-
-# Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
-
-# Ruff stuff:
-.ruff_cache/
-
-# PyPI configuration file
-.pypirc
-
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
+# Cursor (AI editor)
 .cursorignore
 .cursorindexingignore
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+
+# =============================================================================
+# SISTEMA OPERATIVO
+# =============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# =============================================================================
+# LOGS Y MONITORIZACION
+# =============================================================================
+
+*.log
+logs/
+*.log.*
+log.txt
+nohup.out
+tensorboard/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+
+# =============================================================================
+# CREDENCIALES Y SECRETOS (CRITICO - nunca commitear)
+# =============================================================================
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+config.local.py
+.huggingface_token
+HF_TOKEN
+hf_token.txt
+
+
+# =============================================================================
+# ARCHIVOS COMPRIMIDOS Y BINARIOS
+# =============================================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.gz
+*.xz
+
+# Excepcion: pequenios artefactos zip si los necesitas
+# !releases/*.zip
+
+
+# =============================================================================
+# ARCHIVOS GENERADOS POR HERRAMIENTAS DE TFM
+# =============================================================================
+
+# LaTeX (si vas a redactar la memoria con LaTeX)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.run.xml
+*.bcf
+
+# Office temporales
+~$*
+*.~docx
+*.~xlsx
+*.~pptx
+
+# Adobe
+*.tmp
+
+
+# =============================================================================
+# ESPECIFICO DEL PROYECTO (Edge Blight Classifier)
+# =============================================================================
+
+# Carpeta temporal para descargas
+/tmp/mendeley_fresh/
+/tmp/mendeley_ue.zip
+
+# Backups del dataset roto (no versionar)
+**/mendeley_uncontrolled_Environment_BROKEN/
+
+# Resultados experimentales antiguos
+old_outputs/
+backup_outputs/
+runs_*/
+
+# Archivos de prueba personales
+scratch.py
+test_*.py
+TODO.md
+NOTES.md
+borrar.*
+
+
+# =============================================================================
+# DOCUMENTACION
+# =============================================================================
+
+docs/_build/
+docs/api/_autosummary/
+site/
+
+# Imagenes intermedias de la memoria
+*.tmp.png
+draft_*.png

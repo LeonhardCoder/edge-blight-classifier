@@ -1,0 +1,23 @@
+# Core ML
+torch>=2.0
+timm>=1.0.15
+albumentations>=1.4
+opencv-python-headless>=4.10
+scikit-learn>=1.6
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.10
+seaborn>=0.13
+tqdm>=4.67
+psutil
+
+# Exportacion a Edge (instalar en la maquina de entrenamiento)
+onnx>=1.15
+onnxruntime>=1.17
+# Opcional (TFLite via ONNX):
+#   onnx-tf
+#   tensorflow
+
+# Edge (instalar EN cada dispositivo):
+#   RPi4:   tflite-runtime, onnxruntime
+#   Jetson: tensorrt, pycuda (vienen con JetPack)

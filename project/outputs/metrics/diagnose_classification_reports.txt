@@ -1,0 +1,72 @@
+
+======================================================================
+mobilenetv4_conv_small
+======================================================================
+              precision    recall  f1-score   support
+
+     healthy       0.97      0.99      0.98       239
+early_blight       0.95      0.91      0.93       262
+ late_blight       0.93      0.95      0.94       249
+
+    accuracy                           0.95       750
+   macro avg       0.95      0.95      0.95       750
+weighted avg       0.95      0.95      0.95       750
+
+Matriz de confusion (filas=real, cols=pred):
+[[237   2   0]
+ [  5 239  18]
+ [  3  10 236]]
+
+======================================================================
+efficientnetv2_b0
+======================================================================
+              precision    recall  f1-score   support
+
+     healthy       0.99      0.99      0.99       239
+early_blight       0.96      0.95      0.96       262
+ late_blight       0.96      0.96      0.96       249
+
+    accuracy                           0.97       750
+   macro avg       0.97      0.97      0.97       750
+weighted avg       0.97      0.97      0.97       750
+
+Matriz de confusion (filas=real, cols=pred):
+[[237   1   1]
+ [  3 250   9]
+ [  0  10 239]]
+
+======================================================================
+efficientformerv2_s0
+======================================================================
+              precision    recall  f1-score   support
+
+     healthy       0.99      1.00      0.99       239
+early_blight       0.95      0.96      0.95       262
+ late_blight       0.97      0.94      0.96       249
+
+    accuracy                           0.97       750
+   macro avg       0.97      0.97      0.97       750
+weighted avg       0.97      0.97      0.97       750
+
+Matriz de confusion (filas=real, cols=pred):
+[[239   0   0]
+ [  3 252   7]
+ [  0  14 235]]
+
+======================================================================
+repvit_m1
+======================================================================
+              precision    recall  f1-score   support
+
+     healthy       0.99      0.98      0.99       239
+early_blight       0.94      0.95      0.94       262
+ late_blight       0.94      0.95      0.95       249
+
+    accuracy                           0.96       750
+   macro avg       0.96      0.96      0.96       750
+weighted avg       0.96      0.96      0.96       750
+
+Matriz de confusion (filas=real, cols=pred):
+[[234   3   2]
+ [  2 248  12]
+ [  0  12 237]]
