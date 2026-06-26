@@ -1,0 +1,45 @@
+{
+  "accuracy": 0.9853333333333333,
+  "f1_macro": 0.9855698145274894,
+  "recall_per_class": {
+    "healthy": 1.0,
+    "early_blight": 0.9885496183206107,
+    "late_blight": 0.9678714859437751
+  },
+  "fn_critical": 0,
+  "confusion_matrix": [
+    [
+      239,
+      0,
+      0
+    ],
+    [
+      2,
+      259,
+      1
+    ],
+    [
+      0,
+      8,
+      241
+    ]
+  ],
+  "by_subdomain": {
+    "mendeley_ue": {
+      "n": 210,
+      "accuracy": 0.9476190476190476
+    },
+    "plantvillage": {
+      "n": 428,
+      "accuracy": 1.0
+    },
+    "quizhpe": {
+      "n": 48,
+      "accuracy": 1.0
+    },
+    "tilahun": {
+      "n": 64,
+      "accuracy": 1.0
+    }
+  }
+}

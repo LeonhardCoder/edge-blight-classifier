@@ -1,0 +1,7 @@
+A,B,b(A>B),c(B>A),n_disc,test,p_raw,p_holm,sig_0.05,ganador,delta_acc
+efficientformerv2_s0,efficientnetv2_b0,9,12,21,exacto,0.66362,1.0,no,efficientnetv2_b0,-0.004
+efficientformerv2_s0,mobilenetv4_conv_small,23,9,32,chi2_cc,0.02156,0.08623,no,efficientformerv2_s0,0.0187
+efficientformerv2_s0,repvit_m1,6,13,19,exacto,0.16707,0.50121,no,repvit_m1,-0.0093
+efficientnetv2_b0,mobilenetv4_conv_small,29,12,41,chi2_cc,0.01246,0.06231,no,efficientnetv2_b0,0.0227
+efficientnetv2_b0,repvit_m1,8,12,20,exacto,0.50344,1.0,no,repvit_m1,-0.0053
+mobilenetv4_conv_small,repvit_m1,8,29,37,chi2_cc,0.00101,0.00605,si,repvit_m1,-0.028

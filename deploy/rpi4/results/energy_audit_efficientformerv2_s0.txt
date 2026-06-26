@@ -1,0 +1,22 @@
+AUDITORIA ENERGETICA  -  efficientformerv2_s0.onnx
+============================================================
+Inferencias totales (N)      : 3750  (5 x 750)
+Tiempo de la ventana medida  : 393.37 s
+Potencia en reposo (P_idle)  : 2.42 W
+Potencia bajo carga (P_load) : 5.036 W
+Energia acumulada (medidor)  : 555 mWh
+------------------------------------------------------------
+[1] Energia base de reposo durante la corrida:
+    base_idle = P_idle * (wall_s / 3600) * 1000
+              = 2.42 * (393.37 / 3600) * 1000
+              = 264.4321 mWh
+[2] Energia neta de inferencia (total - reposo):
+    neta_total = 555 - 264.4321 = 290.5679 mWh
+[3] Energia por inferencia:
+    bruta/inf = 555 / 3750 = 0.148 mWh
+    neta/inf  = 290.5679 / 3750 = 0.077485 mWh
+============================================================
+Nota: el medidor (KWS-06C) solo entrega energia ACUMULADA de la
+corrida; la energia por inferencia es necesariamente un promedio
+(total / N), no atribuible a una imagen concreta. La latencia si es
+por inferencia (cronometro por sess.run).

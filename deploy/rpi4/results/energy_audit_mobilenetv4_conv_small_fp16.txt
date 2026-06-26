@@ -1,0 +1,22 @@
+AUDITORIA ENERGETICA  -  mobilenetv4_conv_small_fp16.onnx
+============================================================
+Inferencias totales (N)      : 3750  (5 x 750)
+Tiempo de la ventana medida  : 97.66 s
+Potencia en reposo (P_idle)  : 2.386 W
+Potencia bajo carga (P_load) : 5.244 W
+Energia acumulada (medidor)  : 140 mWh
+------------------------------------------------------------
+[1] Energia base de reposo durante la corrida:
+    base_idle = P_idle * (wall_s / 3600) * 1000
+              = 2.386 * (97.66 / 3600) * 1000
+              = 64.7269 mWh
+[2] Energia neta de inferencia (total - reposo):
+    neta_total = 140 - 64.7269 = 75.2731 mWh
+[3] Energia por inferencia:
+    bruta/inf = 140 / 3750 = 0.037333 mWh
+    neta/inf  = 75.2731 / 3750 = 0.020073 mWh
+============================================================
+Nota: el medidor (KWS-06C) solo entrega energia ACUMULADA de la
+corrida; la energia por inferencia es necesariamente un promedio
+(total / N), no atribuible a una imagen concreta. La latencia si es
+por inferencia (cronometro por sess.run).

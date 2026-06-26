@@ -1,15 +1,11 @@
 """
-Configuracion central del TFM Edge Blight Classifier.
+Configuracion central del Edge Blight Classifier.
 
-Lee 'tfm.conf' (formato INI estandar) y expone las constantes al resto
-del proyecto. Para cambiar de entorno:
+Lee 'configs/settings.conf' y expone las constantes al resto del proyecto.
 
-    Opcion A: editar la seccion [active] en tfm.conf
-    Opcion B: exportar la variable de entorno TFM_ENV
-        export TFM_ENV=edge
-        python train.py
-
-La variable de entorno TFM_ENV tiene prioridad sobre settings.conf.
+Para cambiar de entorno:
+        export TFM_ENV=edge_rpi
+        python scripts/02_train.py
 """
 from pathlib import Path
 import configparser
@@ -20,20 +16,19 @@ import platform
 # CARGA DEL FICHERO DE CONFIGURACION
 # =============================================================================
 PROJECT_ROOT = Path(__file__).parent.resolve()
-CONF_PATH    = PROJECT_ROOT / "settings.conf"
+print(f"Cargando configuracion desde: {PROJECT_ROOT}")
+CONF_PATH    = PROJECT_ROOT / "configs" / "settings.conf"
 
 if not CONF_PATH.exists():
     raise FileNotFoundError(
-        f"No se encuentra el fichero de configuracion: {CONF_PATH}\n"
-        f"Copia settings.conf.example a settings.conf y ajustalo a tu maquina."
+        f"No se encuentra el fichero de configuracion: {CONF_PATH}"
     )
 
 _cfg = configparser.ConfigParser(inline_comment_prefixes=("#", ";"))
 _cfg.read(CONF_PATH, encoding="utf-8")
 
-# Resolucion del entorno activo: variable de entorno > [active] en settings.conf
 ENV = os.environ.get("TFM_ENV", _cfg["active"]["env"]).lower()
-assert ENV in {"local", "colab", "edge", "edge-train"}, f"Entorno invalido: {ENV}"
+assert ENV in {"local", "colab", "edge_rpi", "edge_jetson", "edge-train"}, f"Entorno invalido: {ENV}"
 
 if ENV not in _cfg:
     raise ValueError(f"La seccion [{ENV}] no existe en {CONF_PATH}")
@@ -81,8 +76,9 @@ if platform.system() == "Windows":
 
 # =============================================================================
 # DATASETS
-# Tras la homogeneizacion de etiquetas, los datasets con tres clases comparten
-# el mismo esquema de subcarpetas. Documentar en 'Materiales y metodos'.
+# Tras homogeneizacion de etiquetas, los datasets con 3 clases comparten
+# el esquema de subcarpetas. Documentado en la memoria como paso de
+# pre-procesamiento de la seccion 'Materiales y metodos'.
 # =============================================================================
 HOMOGENEOUS_MAP = {
     "Potato___healthy":      "healthy",
@@ -98,35 +94,35 @@ TILAHUN_MAP = {
 
 MENDELEY_UE_MAP = {
     "Potato___healthy":      "healthy",
-    "Potato___Early_blight Fungi": "early_blight",
-    "Potato___Late_blight Phytopthora":  "late_blight",
+    "Potato___Early_blight_Fungi": "early_blight",
+    "Potato___Late_blight_Phytopthora":  "late_blight",
 }
 
 DATASETS = {
     "plantvillage": {
         "path":  DATA_DIR / "Plantville",
         "map":   dict(HOMOGENEOUS_MAP),
-        "phase": "phase1_domain",
+        "origin": "USA / laboratorio",
     },
     "mendeley_ue": {
         "path":  DATA_DIR / "mendeley_uncontrolled_Environment",
         "map":   dict(MENDELEY_UE_MAP),
-        "phase": "phase1_domain",
+        "origin": "Indonesia / campo (Shabrina et al. 2023)",
     },
     "tilahun": {
         "path":  DATA_DIR / "Addis",
         "map":   TILAHUN_MAP,
-        "phase": "phase1_domain",
+        "origin": "Etiopia / semicontrolado",
     },
     "quizhpe": {
         "path":  DATA_DIR / "GerardoQuizhpe",
         "map":   dict(HOMOGENEOUS_MAP),
-        "phase": "phase2_field",
+        "origin": "Ecuador / campo andino",
     },
     "propio": {
         "path":  DATA_DIR / "PropioVictor",
-        "map":   None,  # Pendiente de etiquetar, se asignara a mano en el futuro
-        "phase":  "phase2_field_pending" #"phase2_field",
+        "map":   None,   # sin etiquetar, solo inventario
+        "origin": "Ecuador / propio (sin etiquetar)",
     },
 }
 
@@ -140,7 +136,7 @@ IDX_TO_CLASS   = {i: name for i, name in enumerate(CLASS_NAMES)}
 PRIORITY_CLASS = _cfg["experiment"]["priority_class"]
 
 # =============================================================================
-# MODELOS (constantes del proyecto, no varian por entorno)
+# MODELOS (4 arquitecturas modernas 2021-2024)
 # =============================================================================
 MODEL_REGISTRY = {
     "mobilenetv4_conv_small": {
@@ -159,14 +155,14 @@ MODEL_REGISTRY = {
     },
     "efficientformerv2_s0": {
         "timm_name": "efficientformerv2_s0.snap_dist_in1k",
-        "family":    "ViT",
+        "family":    "Hibrido_Attn",
         "year":      2023,
         "img_size":  224,
         "params_M":  3.5,
     },
     "repvit_m1": {
         "timm_name": "repvit_m1.dist_in1k",
-        "family":    "Hibrido",
+        "family":    "Hibrido_Attn",
         "year":      2024,
         "img_size":  224,
         "params_M":  5.5,
@@ -174,88 +170,71 @@ MODEL_REGISTRY = {
 }
 
 # =============================================================================
-# HIPERPARAMETROS DE ENTRENAMIENTO
+# ENTRENAMIENTO (un unico entrenamiento por modelo)
+# =============================================================================
+TRAINING = {
+    "epochs":      _cfg.getint("training", "epochs"),
+    "lr":          _cfg.getfloat("training", "lr"),
+    "es_patience": _cfg.getint("training", "es_patience"),
+    "img_size":    _cfg.getint("training", "img_size"),
+}
+
+WEIGHT_DECAY = _cfg.getfloat("experiment", "weight_decay")
+SEED         = _cfg.getint("experiment", "seed")
+
+# =============================================================================
+# SPLITS
+# =============================================================================
+SPLITS = {
+    "train": _cfg.getfloat("splits", "train"),
+    "val":   _cfg.getfloat("splits", "val"),
+    "test":  _cfg.getfloat("splits", "test"),
+}
+
+# =============================================================================
+# EDGE BENCHMARK
+# =============================================================================
+EDGE_BENCHMARK = {
+    "warmup_iters":   _cfg.getint("edge_benchmark", "warmup_iters"),
+    "measured_iters": _cfg.getint("edge_benchmark", "measured_iters"),
+    "subset_size":    _cfg.getint("edge_benchmark", "subset_size"),
+}
+
+QUANT_THRESHOLD = _cfg.getfloat("quantization", "threshold")
+
+# =============================================================================
+# MATRIZ DE FORMATOS POR DISPOSITIVO EDGE
 # =============================================================================
 def _parse_list(value: str):
     return [s.strip() for s in value.split(",") if s.strip()]
 
-
-PHASE1 = {
-    "epochs":      _cfg.getint("phase1", "epochs"),
-    "lr":          _cfg.getfloat("phase1", "lr"),
-    "freeze":      _cfg.getboolean("phase1", "freeze"),
-    "es_patience": _cfg.getint("phase1", "es_patience"),
-    "datasets":    _parse_list(_cfg["phase1"]["datasets"]),
-}
-
-PHASE2 = {
-    "epochs":      _cfg.getint("phase2", "epochs"),
-    "lr":          _cfg.getfloat("phase2", "lr"),
-    "freeze":      _cfg.getboolean("phase2", "freeze"),
-    "es_patience": _cfg.getint("phase2", "es_patience"),
-    "datasets":    _parse_list(_cfg["phase2"]["datasets"]),
-}
-
-MAX_TOTAL_EPOCHS = _cfg.getint("experiment", "max_total_epochs")
-WEIGHT_DECAY     = _cfg.getfloat("experiment", "weight_decay")
-SEED             = _cfg.getint("experiment", "seed")
-QUANT_THRESHOLD  = _cfg.getfloat("experiment", "quant_threshold")
-
-# =============================================================================
-# SPLITS POR FASE
-# =============================================================================
-SPLITS = {
-    "phase1_domain": {
-        "train": _cfg.getfloat("splits", "phase1_train"),
-        "val":   _cfg.getfloat("splits", "phase1_val"),
-        "test":  _cfg.getfloat("splits", "phase1_test"),
-    },
-    "phase2_field": {
-        "train": _cfg.getfloat("splits", "phase2_train"),
-        "val":   _cfg.getfloat("splits", "phase2_val"),
-        "test":  _cfg.getfloat("splits", "phase2_test"),
-    },
-}
-
-FINAL_TEST_DATASETS = _parse_list(_cfg["splits"]["final_test_datasets"])
-
-# =============================================================================
-# AUGMENTATIONS
-# =============================================================================
-AUGMENTATIONS = {
-    "phase1": [
-        "random_horizontal_flip",
-        "random_rotation_15",
-        "color_jitter_0.2",
-    ],
-    "phase2": [
-        "random_horizontal_flip",
-        "random_rotation_30",
-        "color_jitter_0.3",
-        "random_resized_crop",
-        "random_erasing",
-    ],
-    "eval": [],
-}
-
-# =============================================================================
-# EVALUACION EN EDGE
-# =============================================================================
-EDGE_BENCHMARK = {
-    "warmup_iters":      _cfg.getint("edge_benchmark", "warmup_iters"),
-    "measured_iters":    _cfg.getint("edge_benchmark", "measured_iters"),
-    "subset_size":       _cfg.getint("edge_benchmark", "subset_size"),
-    "energy_duration_s": _cfg.getint("edge_benchmark", "energy_duration_s"),
+EDGE_MATRIX = {
+    "rpi":    _parse_list(_cfg["matrix_rpi"]["formats"]),
+    "jetson": _parse_list(_cfg["matrix_jetson"]["formats"]),
 }
 
 # =============================================================================
 # UTILIDADES
 # =============================================================================
 def ensure_dirs():
-    """Crea todas las carpetas de salida si no existen."""
+    """Crea carpetas de salida si no existen."""
     for d in (OUTPUTS_DIR, CHECKPOINTS_DIR, EXPORTED_DIR,
               METRICS_DIR, FIGURES_DIR, CORPUS_DIR, LOGS_DIR):
         d.mkdir(parents=True, exist_ok=True)
+
+
+def get_labeled_datasets(names=None):
+    """Devuelve los datasets con mapeo definido (excluye los sin etiquetar)."""
+    if names is None:
+        names = list(DATASETS.keys())
+    return [n for n in names if DATASETS[n]["map"] is not None]
+
+
+def get_pending_datasets(names=None):
+    """Devuelve los datasets sin etiquetar (map=None)."""
+    if names is None:
+        names = list(DATASETS.keys())
+    return [n for n in names if DATASETS[n]["map"] is None]
 
 
 def _count_images(folder: Path) -> int:
@@ -315,10 +294,8 @@ def show_config():
     print("=" * 60)
     print("EDGE BLIGHT CLASSIFIER - CONFIGURACION")
     print("=" * 60)
-    print(f"CONF_FILE:       {CONF_PATH}")
     print(f"ENV:             {ENV}")
     print(f"PROJECT_ROOT:    {PROJECT_ROOT}")
-    print(f"LOCAL_BASE:      {LOCAL_BASE}")
     print(f"DATA_DIR:        {DATA_DIR}")
     print(f"OUTPUTS_DIR:     {OUTPUTS_DIR}")
     print(f"DEVICE:          {DEVICE}")
@@ -330,20 +307,28 @@ def show_config():
     print("Datasets:")
     for name, info in DATASETS.items():
         path = info["path"]
-        ok = "OK" if path.exists() else "FALTA"
-        print(f"  [{ok}] {name} ({info['phase']}): {path}")
+        if info["map"] is None:
+            status = "PEND"
+        elif path.exists():
+            status = "OK"
+        else:
+            status = "FALTA"
+        print(f"  [{status}] {name} ({info['origin']}): {path}")
     print()
     print(f"Modelos: {list(MODEL_REGISTRY.keys())}")
     print(f"Clases:  {CLASS_NAMES}")
     print(f"Seed:    {SEED}")
-    print(f"Phase1:  {PHASE1['epochs']} epochs, lr={PHASE1['lr']}, freeze={PHASE1['freeze']}")
-    print(f"Phase2:  {PHASE2['epochs']} epochs, lr={PHASE2['lr']}, freeze={PHASE2['freeze']}")
+    print(f"Training: {TRAINING['epochs']} epochs, lr={TRAINING['lr']}")
+    print(f"Splits:  {SPLITS}")
+    print()
+    print("Matriz Edge:")
+    print(f"  RPi:    {EDGE_MATRIX['rpi']}")
+    print(f"  Jetson: {EDGE_MATRIX['jetson']}")
     print("=" * 60)
 
 
 if __name__ == "__main__":
     show_config()
     ensure_dirs()
-    print("\nDirectorios de outputs creados.\n")
-    print("Validando estructura de datasets...")
+    print("\nDirectorios de outputs creados.")
     validate_class_mappings()
