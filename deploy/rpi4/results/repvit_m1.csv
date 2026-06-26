@@ -1,0 +1,2 @@
+model_file,repeat,n_per_pass,total_inferences,wall_time_s,lat_mean_ms,accuracy,input_size,P_idle_W,P_load_W,energy_total_mWh,energy_per_inf_mWh,energy_neta_per_inf_mWh
+repvit_m1.onnx,3,750,2250,313.19,116.047,0.9667,224,2.10,5.43,000480,0.213333,0.132136

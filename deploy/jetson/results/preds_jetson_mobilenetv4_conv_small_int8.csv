@@ -1,0 +1,751 @@
+abs_path,source,y_true,y_pred
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9432.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (290).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (348).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (445).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (615).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0707.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692334247342.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (308).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (542).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (366).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230922_154044.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (132).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (52).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0257 (1).JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (872).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0267.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (166).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (284).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (396).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (396).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (359).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230816_122432.jpg,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (46).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (750).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (100).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154014_960_Tizón Tardio_109.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (494).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (709).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (845).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (513).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (524).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_154144~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_8282.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692334247642.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (551).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (744).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (405).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0270.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (980).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (638).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (549).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (367).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (930).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9416.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (965).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230922_154242.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (80).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (222).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (283).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (882).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (454).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (226).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (295).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124636.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (215).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_112811~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (725).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (28).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (473).jpg,tilahun,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_110059.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (496).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4670.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_8220.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (392).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (690).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (543).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (270).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (974).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/IMG_4772.JPG,mendeley_ue,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154319_970_Tizón Tardio_99.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (64).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0751.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_105900.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124647.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (129).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (137).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155705_228_Tizón Tardio_49.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (112).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (195).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (163).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (993).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (718).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123436584.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (487).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (63).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (309).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_110035.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (143).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_155954.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (287).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (792).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (737).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155933_483_Tizón Tardio_39.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9436.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (688).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (106).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (900).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_121542~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (985).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (224).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (899).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/IMG_20230815_150518.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (504).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (384).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (446).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_122456.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (993).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4730.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124505.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (979).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (371).jpg,tilahun,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154833_599_Tizón Tardio_74.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0247.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230815_121157.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (579).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (523).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (860).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (960).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (188).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (99).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (824).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_110812.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (503).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (836).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160430_935_Tizón Tardio_16.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (329).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (806).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (569).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (423).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (787).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0747.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (375).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (405).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (399).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0121.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_130814.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_120840~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160313_613_Tizón Tardio_20.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (402).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_123858.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (845).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123759725.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (984).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (562).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (360).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9534.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (802).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_4712.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (810).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (580).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (493).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (651).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_4719.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154458_919_Tizón Tardio_89.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0314 - Copy.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (580).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (448).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (19).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (727).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (621).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0385.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (716).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (878).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (229).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (822).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (117).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (598).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (499).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (520).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (941).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (696).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_121027.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (535).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154456_503_Tizón Tardio_91.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9420.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (221).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230815_113151.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155854_498_Tizón Tardio_46.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (268).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_122511~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_155710.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (926).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (722).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_122415.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0383.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (813).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (377).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (925).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (325).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (11).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (154).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (260).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (284).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (612).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0162.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692335403778.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (904).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_122740.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154319_970_Tizón Tardio_97.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (303).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (866).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_113645.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_110528056.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (994).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (77).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (446).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (198).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692334247530.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123451.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (197).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (634).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (138).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (177).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_111100.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (855).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (146).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (272).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (374).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (125).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_122932~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_115936805.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (944).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (927).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_130758.jpg,mendeley_ue,0,1
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (495).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (958).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (98).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (262).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124336.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (574).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (360).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4663.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_125057734.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (139).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (776).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (785).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160441_514_Tizón Tardio_14.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (430).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0263 - Copy.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161539_364_Tizón Tardio_229.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (461).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (603).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (275).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_115130.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9424.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (760).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9524 (1).JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (781).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (496).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (228).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_122745.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_111847.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (512).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4788.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (342).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/IMG_4802.JPG,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (898).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (317).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_153428_388_Tizón Tardio_137.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (252).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230816_121138.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (458).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (26).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (792).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (474).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (756).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (401).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_20230816_122433.jpg,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (584).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124739.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (230).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161357_966_Tizón Tardio_238.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (517).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (925).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123635614.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_160234.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (191).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230816_115745.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (590).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (115).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_112919532.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (944).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (778).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9370.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (266).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_125536.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (412).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4674.JPG,mendeley_ue,1,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_153540_023_Tizón Tardio_131.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (3).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (166).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (812).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230816_122025.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (579).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (693).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230815_120132.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (618).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (98).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (247).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (831).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_113046.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_131002.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9464 (1).JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (947).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (50).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0399.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (547).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (426).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123410851.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_4716.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (111).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (712).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155310_466_Tizón Tardio_65.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (147).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (128).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (326).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (307).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_123822.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230815_115726.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (390).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161637_506_Tizón Tardio_221.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (422).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (17).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (457).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (938).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (672).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (13).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230815_115651.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (511).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (571).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9402.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (656).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230816_081918.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (969).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (927).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (111).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_113124667.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_113043.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (832).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (351).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (831).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (516).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (281).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (47).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (581).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (946).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (585).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (208).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_154633.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_143950.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (738).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (362).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (134).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (794).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_124831.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___healthy/IMG_20240613_150341_643_Sana_27.jpg,quizhpe,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0288 - Copy.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (834).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (340).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_111741.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (295).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (140).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0393.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (216).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (371).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (541).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0388.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0402.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (67).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692334247608.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (878).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (191).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (77).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_120415.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (311).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (279).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (293).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124910.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (16).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_113059419.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (990).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (443).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (507).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (483).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (397).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (260).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (931).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (260).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (196).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (824).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (449).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_123641857.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (998).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (243).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (306).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (848).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0280.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (393).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (624).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (544).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (787).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (216).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (973).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155917_312_Tizón Tardio_43.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (70).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (201).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230815_113141.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (32).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (509).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (46).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_121402.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0287.JPG,mendeley_ue,1,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0356.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (358).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (257).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124744990.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (699).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_20230816_122247.jpg,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (853).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4725.JPG,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (777).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230922_154158.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0165.JPG,mendeley_ue,1,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_112322.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_121604.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (365).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (953).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (379).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9372.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154022_128_Tizón Tardio_108.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (710).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (909).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (540).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230922_155829.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_110822.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (819).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (919).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161807_429_Tizón Tardio_206.jpg,quizhpe,2,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230815_112459.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (640).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0250 - Copy.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692338650780.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (424).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (525).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (239).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (597).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9437.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (583).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/IMG_20230815_112958~2.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (323).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_153702.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (823).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_111659166.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (78).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (152).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (795).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9393.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0746.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (301).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (305).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123819.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (36).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (353).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (484).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (525).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (398).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_123714.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (656).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (763).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230816_121244.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (534).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9369.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (744).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (717).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154733_684_Tizón Tardio_79.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0252 - Copy.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (915).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (361).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (993).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (343).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (51).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (906).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___healthy/IMG_20240731_161637_506_Sana_20.jpg,quizhpe,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_112205273.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230712_155047.jpg,mendeley_ue,2,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230816_143114.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (841).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9414.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (510).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (411).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (233).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (903).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161207_550_Tizón Tardio_248.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (557).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (159).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9426.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (518).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230815_153553~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (353).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4799.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (527).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_124741.jpg,mendeley_ue,2,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230816_123310.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (288).jpg,tilahun,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___healthy/IMG_20240806_155835_640_Sana_3.jpg,quizhpe,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692338650713.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (560).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (586).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_8197.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (194).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (788).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (524).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (249).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (629).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (248).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (202).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (298).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161139_204_Tizón Tardio_251.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (249).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (428).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (179).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (229).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (388).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (759).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_124213.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (144).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (258).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_20230816_121440.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240613_151648_217_Tizón Tardio_277.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (218).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (582).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (280).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (136).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692335403878.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4675.JPG,mendeley_ue,1,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_121446.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0131.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (858).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_105858781.jpg,mendeley_ue,1,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (210).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_083255 (1).jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_121103.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (546).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (84).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (430).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692334247043.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (990).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (681).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (42).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (10).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (404).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (206).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4669.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161814_686_Tizón Tardio_204.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (423).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (393).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (230).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (893).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_114402.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (195).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (955).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (845).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (840).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (423).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (543).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (997).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230816_122701.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (514).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (420).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (897).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (124).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (792).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (591).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (503).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (339).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (722).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (35).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0818.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (941).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (770).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_8352.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692332350534.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_132255.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (1).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (972).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (277).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230712_154222.jpg,mendeley_ue,2,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (996).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0336 - Copy.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (346).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (331).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (796).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9364.JPG,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (605).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (753).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0210.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (255).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (889).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (479).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (73).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (174).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230816_121242.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (677).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (727).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (1000).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (234).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (425).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_130724.jpg,mendeley_ue,0,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (954).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_154021.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4705.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123749.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (394).jpg,tilahun,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_123538~2.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (946).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_130800.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (257).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_120442.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0277 (1).JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (236).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (664).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (325).jpg,tilahun,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155430_613_Tizón Tardio_58.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160847_225_Tizón Tardio_0.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160020_029_Tizón Tardio_35.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (781).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_4753.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (912).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (474).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (331).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9366.JPG,mendeley_ue,2,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230802_113050671.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (29).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (406).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (607).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230816_140042.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161326_611_Tizón Tardio_240.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (480).jpg,tilahun,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160550_587_Tizón Tardio_10.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (920).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (171).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (84).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_154837.jpg,mendeley_ue,1,0
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (242).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (59).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160806_610_Tizón Tardio_3.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (185).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_160117_645_Tizón Tardio_29.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692335404057.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_105747.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_9463.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (858).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___healthy/IMG_20240806_160309_294_Sana_1.jpg,quizhpe,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_111537860.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (201).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_110855185.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0667.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0727.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_153602_999_Tizón Tardio_125.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (205).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (225).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_160903_448_Tizón Tardio_258.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (489).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (306).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (204).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_112133191.jpg,mendeley_ue,1,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (675).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (942).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (437).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (600).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0389.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Early_blight/IMG_20240806_154128_970_Tizón Temprano_2.jpg,quizhpe,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (837).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (339).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230712_123048.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (282).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (16).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_154022_128_Tizón Tardio_107.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (643).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (838).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_9404.JPG,mendeley_ue,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230802_104832057.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (757).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (924).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (882).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (362).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_155404_274_Tizón Tardio_61.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/1692334247561.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_153335_071_Tizón Tardio_143.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (294).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (334).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123312346.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (690).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_122553.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161713_280_Tizón Tardio_217.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___healthy/IMG_20240731_161944_227_Sana_18.jpg,quizhpe,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (915).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/20230815_122701.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (16).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_20230816_080308_1.jpg,mendeley_ue,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (30).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (334).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (762).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/IMG_0342.JPG,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (70).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230816_121545.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (426).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (675).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (951).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240731_161211_888_Tizón Tardio_247.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (367).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (895).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (522).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (572).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (869).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Early_blight_Fungi/IMG_0954.JPG,mendeley_ue,1,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___healthy/20230712_121641.jpg,mendeley_ue,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (789).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (476).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (548).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (753).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (890).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (412).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (404).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (755).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (895).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Addis/Potato_Late_Blight/Late_Blight (465).jpg,tilahun,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (34).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (857).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (228).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (297).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123356.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Addis/Potato_Healthy/Healthy (335).jpg,tilahun,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (491).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (220).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (104).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_153636_688_Tizón Tardio_123.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (648).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (431).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (308).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (56).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (416).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/GerardoQuizhpe/Potato___Late_blight/IMG_20240806_153441_828_Tizón Tardio_136.jpg,quizhpe,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (661).JPG,plantvillage,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (328).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/mendeley_uncontrolled_Environment/Potato___Late_blight_Phytopthora/20230802_123916.jpg,mendeley_ue,2,2
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (978).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___Early_blight/image (619).JPG,plantvillage,1,1
+/home/victor/Documents/dataset/Plantville/Potato___healthy/image (397).JPG,plantvillage,0,0
+/home/victor/Documents/dataset/Plantville/Potato___Late_blight/image (43).JPG,plantvillage,2,2

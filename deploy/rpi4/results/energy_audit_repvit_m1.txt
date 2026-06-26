@@ -1,0 +1,22 @@
+AUDITORIA ENERGETICA  -  repvit_m1.onnx
+============================================================
+Inferencias totales (N)      : 3750  (5 x 750)
+Tiempo de la ventana medida  : 448.3 s
+Potencia en reposo (P_idle)  : 2.386 W
+Potencia bajo carga (P_load) : 7.288 W
+Energia acumulada (medidor)  : 669 mWh
+------------------------------------------------------------
+[1] Energia base de reposo durante la corrida:
+    base_idle = P_idle * (wall_s / 3600) * 1000
+              = 2.386 * (448.3 / 3600) * 1000
+              = 297.1233 mWh
+[2] Energia neta de inferencia (total - reposo):
+    neta_total = 669 - 297.1233 = 371.8767 mWh
+[3] Energia por inferencia:
+    bruta/inf = 669 / 3750 = 0.1784 mWh
+    neta/inf  = 371.8767 / 3750 = 0.099167 mWh
+============================================================
+Nota: el medidor (KWS-06C) solo entrega energia ACUMULADA de la
+corrida; la energia por inferencia es necesariamente un promedio
+(total / N), no atribuible a una imagen concreta. La latencia si es
+por inferencia (cronometro por sess.run).

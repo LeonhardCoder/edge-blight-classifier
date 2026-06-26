@@ -1,0 +1,13 @@
+model,family,precision,accuracy,f1_macro,recall_healthy,recall_early_blight,recall_late_blight,latency_ms,ram_mb,fps,energy_mj
+efficientformerv2_s0,Hibrido c/atencion,FP32,0.9867,0.9869,1.0,0.9733,0.988,2.885,698.4,346.6,16.4886
+efficientformerv2_s0,Hibrido c/atencion,FP16,0.9867,0.9869,1.0,0.9733,0.988,2.466,775.8,405.6,9.5543
+efficientformerv2_s0,Hibrido c/atencion,INT8,0.9707,0.9711,0.9623,0.9885,0.9598,2.731,771.9,366.2,9.7683
+efficientnetv2_b0,CNN,FP32,0.9813,0.9816,0.9958,0.9618,0.988,3.069,691.3,325.8,15.6901
+efficientnetv2_b0,CNN,FP16,0.9813,0.9816,0.9958,0.9618,0.988,2.169,778.9,461.0,8.4736
+efficientnetv2_b0,CNN,INT8,0.976,0.9763,0.9958,0.9427,0.992,2.012,681.8,496.9,4.9484
+mobilenetv4_conv_small,CNN,FP32,0.9573,0.9579,0.9874,0.9427,0.9438,1.273,696.8,785.5,3.9805
+mobilenetv4_conv_small,CNN,FP16,0.9573,0.9579,0.9874,0.9427,0.9438,1.193,777.9,838.0,2.5476
+mobilenetv4_conv_small,CNN,INT8,0.9573,0.9579,0.9916,0.9389,0.9438,0.827,674.4,1209.1,1.3633
+repvit_m1,Hibrido s/atencion,FP32,0.9907,0.9908,1.0,0.9924,0.9799,2.942,682.9,339.9,15.3068
+repvit_m1,Hibrido s/atencion,FP16,0.9907,0.9908,1.0,0.9924,0.9799,2.197,771.6,455.2,8.5565
+repvit_m1,Hibrido s/atencion,INT8,0.9853,0.9856,1.0,0.9885,0.9679,2.254,730.3,443.7,6.2845

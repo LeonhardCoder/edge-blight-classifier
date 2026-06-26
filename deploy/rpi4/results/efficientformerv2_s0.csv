@@ -1,0 +1,2 @@
+model_file,repeat,n_per_pass,total_inferences,wall_time_s,lat_mean_ms,accuracy,input_size,P_idle_W,P_load_W,energy_total_mWh,energy_per_inf_mWh,energy_neta_per_inf_mWh
+efficientformerv2_s0.onnx,3,750,2250,278.46,100.618,0.9653,224,2.38,5.12,00423,0.188,0.106181

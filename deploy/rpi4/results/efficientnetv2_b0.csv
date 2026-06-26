@@ -1,0 +1,2 @@
+model_file,repeat,n_per_pass,total_inferences,wall_time_s,lat_mean_ms,accuracy,input_size,P_idle_W,P_load_W,energy_total_mWh,energy_per_inf_mWh,energy_neta_per_inf_mWh
+efficientnetv2_b0.onnx,3,750,2250,243.84,85.262,0.952,224,2.37,5.52,000380,0.168889,0.097543
