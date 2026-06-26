@@ -30,7 +30,7 @@ METRICAS POR COMBINACION:
   Latencia media, P95, P99 sobre 500 inferencias
   Memoria RAM pico, tamano del modelo
 ```
-
+ dataset utilizado en el entrenamiento y modelos entrenados:  [repositorio](https://drive.google.com/drive/folders/1kH6nvHay5SwGetoZ8RAevFzMbhN1D5k_)
 ## Estructura
 
 ```
